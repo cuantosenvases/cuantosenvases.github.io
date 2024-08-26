@@ -1,0 +1,19 @@
+<form action="#" method="#">
+
+    <label>
+        Litros:
+        <input id="liters" class="packaging-liters" name="liters" type="number" min="0" step="0.1">
+    </label>
+
+    <label>
+        Envase:
+        <select id="packaging" name="packaging">
+            <option value="50">50 ml.</option>
+            <option value="7">7 cc.</option>
+        </select>
+    </label>
+
+    <button class="packaging-button" type="button" onclick="getPackaging()">Ver</button>
+    <br><br>
+    <label id="quantity" class="packaging-quantity"> </label>
+</form>
