@@ -1,4 +1,4 @@
-function howManyContainers(){
+function getContainers(){
     let liters = document.getElementById("liters");
     let packaging = document.getElementById("packaging");
     let quantity = null;
